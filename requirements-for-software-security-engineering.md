@@ -9,12 +9,20 @@ Add diagram here
 #### Description
 
 
-### Use/Misuse Case: Order Management
+### Use/Misuse Case #2: Order Management
 
-Add diagram here
+![Use_Misuse Case - Order Management](/Use_Misuse%20Case%20-%20Order%20Management.drawio.drawio.png)
 
-#### Description
+Actors:
+DieNet Hacktivist Group and Sales Supervisor
 
+Use Case:
+
+The sales supervisor approves submitted sale orders.
+
+Misuse Case:
+
+An external hacktivist group, DieNet, launches a joint DDOS/malware deployment attack. This will flood the system with orders in an attempt to disrupt services and deploy harmful malware to move laterally through the system.
 
 ### Use/Misuse Case: Manufacturing
 
