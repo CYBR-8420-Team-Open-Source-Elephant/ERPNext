@@ -24,6 +24,8 @@ Misuse Case:
 
 An external hacktivist group, DieNet, launches a joint DDOS/malware deployment attack. This will flood the system with orders in an attempt to disrupt services and deploy harmful malware to move laterally through the system.
 
+ERPnext provides many built-protections against a potential DDoS/malware attack based on the above use/misuse case. Some of these include basic rate limiting, role-based permission features, IP restricting, and audit logging. These security features help mitigate the misuse case. However, the documentation regarding DDoS attacks or sophisticated malware deployment seems to be lacking from OSS documentation and the codebase. The IP restrictions are also not decently hardened, leaving space for improvement. Additional guidance, playbooks, and standards would be beneficial in improving mitigations/security requirements for this misuse case. Overall, existing security features align well with requirements but should be enhanced to further strengthen security. 
+
 ### Use/Misuse Case: Manufacturing
 
 Add diagram here
