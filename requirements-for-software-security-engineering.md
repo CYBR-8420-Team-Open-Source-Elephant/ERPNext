@@ -167,3 +167,5 @@ The ERPNext documentation provides solid coverage of core security features such
 
 ## Reflection
 Across the individual reflections, a common theme included the value that the use/misuse diagrams provided throughout the assignment process. These allowed for the team to visualize and trace the interactions occurring between the actors and software. These interactions included threat use/misuse cases that the software could potentially interact with in the real world. These visualizations also allowed us to better identify the security requirements that are needed to mitigate/prevent the threat in the misuse cases. This assignment also gave us the opportunity to do deeper research into the existing documentation for ERPNext. 
+
+[Project Board](https://github.com/orgs/CYBR-8420-Team-Open-Source-Elephant/projects/3/views/1)
