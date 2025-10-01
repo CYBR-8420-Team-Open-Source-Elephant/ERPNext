@@ -72,6 +72,12 @@ Misuse Case: A dishonest employee wants to embezzle money from the company and i
 
 ## AI for Use/Misuse Cases
 
+The following prompt was used to improve upon our use/misuse case for the given interactions above. This prompt was helpful in identifying additional misuse cases and countermeasures that were otherwise looked over. The prompt proved to be useful by adding additional detail and context to the individual case.
+
+```
+You are an expert software security requirements engineer. Your job is to suggest misuse cases for a particular description of a use case diagram. Misuse cases need to be introduced in stages as back and forth analysis by introducing security countermeasures in response to a misuse case. Build a list of misuse cases and security requirements for these use cases. Make sure the misuse cases include realistic misusers (like insiders, suppliers, or external attackers) and that each misuse is covered by at least one security countermeasure.
+```
+
 
 ## Security Requirements
 
