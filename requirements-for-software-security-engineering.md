@@ -2,7 +2,7 @@
 
 ## Use/Misuse Cases
 
-### Use/Misuse Case: Accounting
+### Use/Misuse Case #1: Accounting
 
 Add diagram here
 
