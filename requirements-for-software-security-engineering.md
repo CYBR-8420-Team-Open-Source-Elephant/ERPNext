@@ -4,9 +4,16 @@
 
 ### Use/Misuse Case #1: Accounting
 
-Add diagram here
+<img width="988" height="733" alt="Use Case - Accounting" src="https://github.com/user-attachments/assets/877d7b3f-a581-45ac-9aaf-5a6b46322f42" />
+
 
 #### Description
+Actors: Account Manager, Disgruntled Accounting Clerk, Security Analyst
+
+Use Case:An account manager uses ERPNext to create legitimate journal entries, enter payment data, and manage account information for daily business transactions. These entries must be approved before they are posted to the general ledger. The system administrator oversees immutable logs and monitors for unusual or suspicious behavior. All journal entries and approval actions are recorded in a tamper-evident audit trail that cannot be altered or deleted without multi-level authorization.
+
+Misuse Case:A disgruntled accounting clerk (insider) attempts to manipulate the company’s financial records for to steal money. First, the insider tries to insert a fraudulent journal entry to cover up theft or inflate expenses. However, this requires approval before posting, making the fraud attempt visible and subject to rejection. Next, the insider attempts to modify an already entered payment data. This action is blocked by ERPNext’s immutable audit trail, which records all changes and prevents tampering. Last, the insider attempts to access the banking information directly, but this is rejected through the company’s measure that encrypts all banking information.
+
 
 
 ### Use/Misuse Case #2: Order Management
