@@ -39,8 +39,7 @@ Use Case: The Production Manager uses ERPNext to create and adjust capacity plan
 
 Misuse Case: An insider with excessive privileges may attempt to manipulate capacity planning data to hide delays or falsify workloads. External suppliers may attempt to inject invalid data or tamper with subcontracting receipts. These actions are mitigated by role-based access controls that limit who can create or publish capacity plans, and by approval workflows that require a second review for significant changes. Audit logging records every change for detection and response. On the subcontracting side, supplier data is safeguarded with API authentication, schema validation, and alerts that flag abnormal consumption or receipt patterns. Together these countermeasures ensure misuse attempts are detected, blocked, or escalated for additional authorization.derived from our analysis.
 
-### Use/Misuse Case: Asset Management
-=======
+
 ### Use/Misuse Case #4: Asset Management
 
 
