@@ -1,6 +1,6 @@
 # Assurance Cases for Software Security Engineering
 
-## Link to Project Board
+[Project Board](https://github.com/orgs/CYBR-8420-Team-Open-Source-Elephant/projects/3/views/1)
 
 
 ---
