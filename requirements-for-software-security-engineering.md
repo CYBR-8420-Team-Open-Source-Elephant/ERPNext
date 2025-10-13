@@ -2,11 +2,18 @@
 
 ## Use/Misuse Cases
 
-### Use/Misuse Case: Accounting
+### Use/Misuse Case #1: Accounting
 
-Add diagram here
+<img width="988" height="733" alt="Use Case - Accounting" src="https://github.com/user-attachments/assets/877d7b3f-a581-45ac-9aaf-5a6b46322f42" />
+
 
 #### Description
+Actors: Account Manager, Disgruntled Accounting Clerk, Security Analyst
+
+Use Case:An account manager uses ERPNext to create legitimate journal entries, enter payment data, and manage account information for daily business transactions. These entries must be approved before they are posted to the general ledger. The system administrator oversees immutable logs and monitors for unusual or suspicious behavior. All journal entries and approval actions are recorded in a tamper-evident audit trail that cannot be altered or deleted without multi-level authorization.
+
+Misuse Case:A disgruntled accounting clerk (insider) attempts to manipulate the company’s financial records for to steal money. First, the insider tries to insert a fraudulent journal entry to cover up theft or inflate expenses. However, this requires approval before posting, making the fraud attempt visible and subject to rejection. Next, the insider attempts to modify an already entered payment data. This action is blocked by ERPNext’s immutable audit trail, which records all changes and prevents tampering. Last, the insider attempts to access the banking information directly, but this is rejected through the company’s measure that encrypts all banking information.
+
 
 
 ### Use/Misuse Case #2: Order Management
@@ -26,7 +33,7 @@ An external hacktivist group, DieNet, launches a joint DDOS/malware deployment a
 
 ERPnext provides many built-protections against a potential DDoS/malware attack based on the above use/misuse case. Some of these include basic rate limiting, role-based permission features, IP restricting, and audit logging. These security features help mitigate the misuse case. However, the documentation regarding DDoS attacks or sophisticated malware deployment seems to be lacking from OSS documentation and the codebase. The IP restrictions are also not decently hardened, leaving space for improvement. Additional guidance, playbooks, and standards would be beneficial in improving mitigations/security requirements for this misuse case. Overall, existing security features align well with requirements but should be enhanced to further strengthen security. 
 
-### Use/Misuse Case: Manufacturing
+### Use/Misuse Case #3: Manufacturing
 
 ![Use/Misuse Case Manufacturing Photo](/Use_Misuse%20Case%20-%20Manufacturing.png)
 
@@ -39,8 +46,7 @@ Use Case: The Production Manager uses ERPNext to create and adjust capacity plan
 
 Misuse Case: An insider with excessive privileges may attempt to manipulate capacity planning data to hide delays or falsify workloads. External suppliers may attempt to inject invalid data or tamper with subcontracting receipts. These actions are mitigated by role-based access controls that limit who can create or publish capacity plans, and by approval workflows that require a second review for significant changes. Audit logging records every change for detection and response. On the subcontracting side, supplier data is safeguarded with API authentication, schema validation, and alerts that flag abnormal consumption or receipt patterns. Together these countermeasures ensure misuse attempts are detected, blocked, or escalated for additional authorization.derived from our analysis.
 
-### Use/Misuse Case: Asset Management
-=======
+
 ### Use/Misuse Case #4: Asset Management
 
 
@@ -65,6 +71,12 @@ Misuse Case: A dishonest employee wants to embezzle money from the company and i
 
 
 ## AI for Use/Misuse Cases
+
+The following prompt was used to improve upon our use/misuse case for the given interactions above. This prompt was helpful in identifying additional misuse cases and countermeasures that were otherwise looked over. The prompt proved to be useful by adding additional detail and context to the individual case.
+
+```
+You are an expert software security requirements engineer. Your job is to suggest misuse cases for a particular description of a use case diagram. Misuse cases need to be introduced in stages as back and forth analysis by introducing security countermeasures in response to a misuse case. Build a list of misuse cases and security requirements for these use cases. Make sure the misuse cases include realistic misusers (like insiders, suppliers, or external attackers) and that each misuse is covered by at least one security countermeasure.
+```
 
 
 ## Security Requirements
@@ -155,3 +167,5 @@ The ERPNext documentation provides solid coverage of core security features such
 
 ## Reflection
 Across the individual reflections, a common theme included the value that the use/misuse diagrams provided throughout the assignment process. These allowed for the team to visualize and trace the interactions occurring between the actors and software. These interactions included threat use/misuse cases that the software could potentially interact with in the real world. These visualizations also allowed us to better identify the security requirements that are needed to mitigate/prevent the threat in the misuse cases. This assignment also gave us the opportunity to do deeper research into the existing documentation for ERPNext. 
+
+[Project Board](https://github.com/orgs/CYBR-8420-Team-Open-Source-Elephant/projects/3/views/1)
