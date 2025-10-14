@@ -71,3 +71,5 @@ Includes any related uncertainty of the property
 This AI prompt was useful by enhancing the framing of our assurance cases. This prompt was particularly helpful because it showed examples of a good and bad claim. The checklist was also useful in assuring that all the needs of the claim framework were met. Inclusions of the grammar requirements were also useful. This AI prompt was able to provide 18 different possible claims/rebuttals and evidence. This was a great technique in idea generation/deeper research into our project documentation. 
 
 ## Team Reflection
+
+This assignment helped us to understand that the trustworthiness of a system should be reasoned rather than assumed. The security features of a system should be used as evidence of a claim about the system rather than boxes that need to be checked. We believe the exercise of developing assurance cases can be useful in the workplace to guide development and to convince stakeholders that software meets their security requirements. We also found that developing a solid argument can be difficult, but receiving feedback from our team members and from AI tools helped us to improve our arguments.
