@@ -42,10 +42,11 @@ Much of the evidence that I identified was available in the documentation both f
 ### **Claim 4 - ERPNext ensures the validity of input and external data exchanges.**
 
 
-##Diagram here
+![Assurance Diagram of input validity](/Assurance%20Case%20new%20-%20Niazie.png)
 
 **Part 2 Assessment**
 
+All the evidence I found was in the official Frappe and ERPNext documentation. The validation hooks, API authentication methods, and audit trail features are all explicitly described and can be verified directly within a deployed ERPNext instance. There is some pieces of evidence that I would choose to include additional testing for verification such as the Track Changes. The documentation has it clearly described but there isn't a clear, screenshot, proof that warnings appear when disabled. There is also no example log output for the API access log in the documentation so additional verification would be very nice here. The ORM isn't displayed with clear evidence of penetration testing but the code and documentation do more than enough to ensure that this operational evidence is solid.
  
 ----
 
