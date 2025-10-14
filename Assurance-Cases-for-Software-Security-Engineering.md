@@ -54,7 +54,20 @@ All the evidence I found was in the official Frappe and ERPNext documentation. T
 
 ## AI Use for Assurance Cases
 
+The following AI prompt was used to enhance the framing of one of our assurance cases:
 
+You are a software engineer. Your job task includes suggesting improvements by phrasing them as assurance claims. Claims include elements of the software that may have security risks or vulnerabilities. A claim needs to be worded with the correct grammar. This grammar includes a predicate. Claims should not be formed in relation to techniques/methods. The claim should have a reachable goal. 
 
+Good claim: “ERPNext role-based access control minimizes the risk of permission misconfiguration.”
+
+Bad claim: “The system uses role-based access control.”
+
+Claim checklist:
+Includes relevant argument
+Includes critical property of the entity
+Includes value for the property 
+Includes any related uncertainty of the property
+
+This AI prompt was useful by enhancing the framing of our assurance cases. This prompt was particularly helpful because it showed examples of a good and bad claim. The checklist was also useful in assuring that all the needs of the claim framework were met. Inclusions of the grammar requirements were also useful. This AI prompt was able to provide 18 different possible claims/rebuttals and evidence. This was a great technique in idea generation/deeper research into our project documentation. 
 
 ## Team Reflection
