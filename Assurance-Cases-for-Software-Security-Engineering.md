@@ -22,11 +22,14 @@ The documentation on both Frappe and ERPNext was readily available and clear for
 
 ### **Claim 2 - ERPNext’s user authentication reliably prevents unauthorized access.**
 
-##Diagram here
+
+<img width="991" height="1094" alt="Assurance Case- User Authentication drawio (1)" src="https://github.com/user-attachments/assets/69fac9e6-621f-4e92-8fa6-b9eca60c5a66" />
+
 
 
 **Part 2 Assessment**  
 
+The documentation for ERPNext has some information to back up the claims provided in the user authentication assurance case. Documentation clearly defines the password requirements as well as session timeouts and reset requirements. It also highlights the availability of the access logs. In terms of gaps and improvement, ERPNext could provide more information on the alerting thresholds when incidents happen and clarity on how session tokens are generated. Since there is no clear evidence of either, there are some potential vulnerabilities that the documentation does not address.
 
 ----
 
