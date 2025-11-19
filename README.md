@@ -11,3 +11,4 @@
 - [Project Proposal](/project-proposal.md)
 - [Requirements for Software Security Engineering](/requirements-for-software-security-engineering.md)
 - [Assurance Cases for Software Security Engineering](/Assurance-Cases-for-Software-Security-Engineering.md)
+- [Designing for Software Security Engineering](/Designing%20for%20Software%20Security%20Engineering.md)
