@@ -7,11 +7,11 @@
 
 
 ## Data Flow Diagram
-
+![Assurance Case - APIs](/Final%20DFD%20ERPNEXT.png)
 ----
 
 ## Threat Modeling Report
-
+[ERPNext Threat Modeling Report](https://htmlpreview.github.io/?https://github.com/CYBR-8420-Team-Open-Source-Elephant/ERPNext/blob/main/ERPNEXT_REPORT.htm)
 
 ----
 
