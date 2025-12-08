@@ -17,6 +17,10 @@
 
 ----
 
+## Part 2: Key Findings and Contributions
+
+----
+
 ## Manual Code Review
 
 ----
