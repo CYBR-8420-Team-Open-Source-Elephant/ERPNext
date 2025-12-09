@@ -37,7 +37,7 @@ CWE-603 – Use of Client-Side Authentication
 
 CWE-425 – Direct Request (“Forced Browsing”)
 
-CWE-89 – SQL Injection
+CWE-89 – Improper Neutralization of Special Elements used in an SQL Command (SQL Injection)
 
 CWE-778 – Insufficient Logging
 
@@ -46,6 +46,14 @@ CWE-307 – Improper Restriction of Excessive Authentication Attempts
 CWE-552 – Files or Directories Accessible to External Parties
 
 CWE-20 – Improper Input Validation
+
+CWE-200 – Exposure of Sensitive Information to an Unauthorized Actor
+
+CWE-319 – Cleartext Transmission of Sensitive Information
+
+CWE-570 – Expression is Always False
+
+CWE-561 – Dead Code
 
 
 ----
